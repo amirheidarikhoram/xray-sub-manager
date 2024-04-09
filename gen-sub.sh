@@ -6,6 +6,6 @@ id="$3"
 
 filename="${remark}_${id}"
 
-echo "$configuration" > "$filename"
+echo "$configuration" > "subs/$filename"
 
 echo "Configuration saved to $filename"
