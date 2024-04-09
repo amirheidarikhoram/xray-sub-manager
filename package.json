@@ -1,0 +1,11 @@
+{
+  "name": "xray-sub-manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:amirheidarikhoram/xray-sub-manager.git",
+  "author": "Amir Heidari <amir.heidari.khoram@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
