@@ -6,6 +6,10 @@ const port = 5000;
 
 const SUBS_FOLDER = `subs`
 
+app.get('/hello', (req, res) => {
+    res.send("hello")
+});
+
 app.get('/subs/:remark', (req, res) => {
     const id = req.header('Authorization');
     if (!id) {
